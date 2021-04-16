@@ -4,5 +4,5 @@ jobs:
     machine: True
     steps:
       - run:
-          name: getting script
-          command: wget https://raw.githubusercontent.com/revanthstrakz/script/master/circle_m31.bash
+          name: dependencies
+          command: sudo apt update | sudo apt install transmission-cli ffmpeg git python3 
