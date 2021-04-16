@@ -5,4 +5,7 @@ jobs:
     steps:
       - run:
           name: dependencies
-          command: sudo apt update | sudo apt install transmission-cli ffmpeg git python3 
+          command: sudo apt update 
+      - run:
+          name: dependencies
+          command: sudo apt install transmission-cli ffmpeg git python3 
